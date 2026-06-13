@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Class chuyên dụng để các con số, dấu phẩy thẳng hàng tuyệt đối */
+.font-tabular {
+  font-variant-numeric: tabular-nums;
+  font-family: 'font-mono', monospace;
+}
